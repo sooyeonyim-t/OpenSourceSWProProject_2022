@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/iconLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibZoomin"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/ibZoomout"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageButton
+            android:id="@+id/ibRotate"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageButton
+            android:id="@+id/ibBright"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/ibDark"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/ic_launcher_foreground" />
+        <ImageButton
+            android:id="@+id/ibGray"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/ic_launcher_background" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:id="@+id/pictureLayout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
